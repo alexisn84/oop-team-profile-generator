@@ -8,9 +8,9 @@ const generateManager = function (manager) {
                 <h4>Manager</h4><i class = "material-icons">assignment</i>
             </div>
 
-            <div class="card-body">
+            <div class="card-body" style="font-weight: thick">
                 <p class= "id">ID: ${manager.id}</p>
-                <p class = "email">Email: <a href="mailto:${manager.email}">${manager.email}</a></p>
+                <p class = "email">Email: <a href="mailto:${manager.email}" style="color: #3D550C">${manager.email}</a></p>
                 <p class = "office">Office Number: ${manager.officeNumber}</p>
             </div>
         </div>
@@ -30,8 +30,8 @@ const generateEngineer = function (engineer) {
 
             <div class="card-body" >
                 <p class= "id">ID: ${engineer.id}</p>
-                <p class = "email" style:"color: #ECF87F>Email: <a href="mailto:${engineer.email}">${engineer.email}</a></p>
-                <p class = "github">GitHub User: <a href="https://github.com/${engineer.github}" target="_blank">${engineer.github}</a></p>
+                <p class = "email">Email: <a href="mailto:${engineer.email}" style="color: #3D550C">${engineer.email}</a></p>
+                <p class = "github">GitHub User: <a href="https://github.com/${engineer.github}" target="_blank" style="color: #3D550C">${engineer.github}</a></p>
             </div>
         </div>
     </div>
@@ -50,7 +50,7 @@ const generateIntern = function (intern) {
 
             <div class="card-body" >
                 <p class= "id">ID: ${intern.id}</p>
-                <p class = "email" style:"color: #ECF87F>Email: <a href="mailto:${intern.email}">${intern.email}</a></p>
+                <p class = "email">Email: <a href="mailto:${intern.email}" style="color: #3D550C">${intern.email}</a></p>
                 <p class = "school">School Name: ${intern.school}</p>
             </div>
         </div>
@@ -114,7 +114,7 @@ const generateTeamPage = function (employeeCards) {
     <body>
         <main> 
             <header>
-                <h1 class="title" style="text-align: center; color: #ECF87F; background-color:#59981A; margin: 0">Team Profile</h1>
+                <h1 class="title" style="text-align: center; color: #ECF87F; background-color:#59981A; margin: 0; padding: 20px">Team Profile</h1>
             </header>
 
             <div class="container" style="background-color: #81B622">
