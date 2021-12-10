@@ -47,7 +47,7 @@ const addManager = () => {
             name: 'email',
             message: "Enter manager's email address",
             validate: emailInput => {
-                valid = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(email)
+                valid = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(emailInput)
                 if (valid) {
                     return true;
                 } else {
@@ -71,7 +71,7 @@ const addManager = () => {
         }
     ])
     .then(managerInput => {
-        const {name, id, email, officeNumber} = managerInput;
+        const  { name, id, email, officeNumber } = managerInput;
         const manager = new Manager (name, id, email, officeNumber);
 
         teamArray.push(manager);
