@@ -117,8 +117,8 @@ const generateTeamPage = function (employeeCards) {
                 <h1 class="title" style="text-align: center; color: #ECF87F; background-color:#59981A; margin: 0; padding: 20px">Team Profile</h1>
             </header>
 
-            <div class="container" style="background-color: #81B622">
-                <div class="row justify-content-center" id="team-cards">
+            <div class="container " style="background-color: #81B622;">
+                <div class="row justify-content-around" id="team-cards">
                 ${employeeCards}
                 </div>
             </div>

@@ -16,7 +16,7 @@ This application uses Inquirer module form Node.js to generate team profile base
 The repository will need to be cloned from GitHub and download Node. The user will also need file system and Inquirer modules. If user wishes to use testing functions, they will need to ensure they install Jest. 
 
 ## Usage
-From the command line run "node index.js". Answer the prompts as needed about your team. 
+From the command line run `node index.js`. Answer the prompts as needed about your team. 
 View walk through video here: [Screencastify] (add link for video here as well as images after, use <br> for spacing)
 
 ## License 
@@ -29,5 +29,5 @@ Not accepting contributions for this project at this time.
 Run `npm run test` to run Jest for testing on constructors.
 
 ## Questions
-Any questions about this project, please create an issue under the repo at: 
-https://github.com/alexisn84/oop-team-profile-generator/issues
+*Any questions about this project, please create an issue under the repo at: 
+https://github.com/alexisn84/oop-team-profile-generator/issues*
