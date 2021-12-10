@@ -1,8 +1,8 @@
 //create manager card
 const generateManager = function (manager) {
     return `
-    <div class= "col-4 mt-3">
-        <div class = "card h-125">
+    <div class= "col-4 mt-3 mb-3">
+        <div class = "card h-125" style="color: #ECF87F; background-color: #59981A">
             <div class = "card-header">
                 <h3>${manager.name}</h3>
                 <h4>Manager</h4><i class = "material-icons">assignment</i>
@@ -21,17 +21,17 @@ const generateManager = function (manager) {
 //create engineer card
 const generateEngineer = function (engineer) {
     return `
-    <div class= "col-4 mt-3">
-        <div class = "card h-125">
+    <div class= "col-4 mt-3 mb-3">
+        <div class = "card h-125" style="color: #ECF87F; background-color: #59981A">
             <div class = "card-header">
                 <h3>${engineer.name}</h3>
                 <h4>Engineer</h4><i class = "material-icons">developer_board</i>
             </div>
 
-            <div class="card-body">
+            <div class="card-body" >
                 <p class= "id">ID: ${engineer.id}</p>
-                <p class = "email">Email: <a href="mailto:${engineer.email}">${engineer.email}</a></p>
-                <p class = "github">GitHub User: <a href="https://github.com/${engineer.github}">${engineer.github}</a></p>
+                <p class = "email" style:"color: #ECF87F>Email: <a href="mailto:${engineer.email}">${engineer.email}</a></p>
+                <p class = "github">GitHub User: <a href="https://github.com/${engineer.github}" target="_blank">${engineer.github}</a></p>
             </div>
         </div>
     </div>
@@ -41,16 +41,16 @@ const generateEngineer = function (engineer) {
 //create intern card
 const generateIntern = function (intern) {
     return `
-    <div class= "col-4 mt-3">
-        <div class = "card h-125">
+    <div class= "col-4 mt-3 mb-3">
+        <div class = "card h-125" style="color: #ECF87F; background-color: #59981A">
             <div class = "card-header">
                 <h3>${intern.name}</h3>
                 <h4>Manager</h4><i class = "material-icons">school</i>
             </div>
 
-            <div class="card-body">
+            <div class="card-body" >
                 <p class= "id">ID: ${intern.id}</p>
-                <p class = "email">Email: <a href="mailto:${intern.email}">${intern.email}</a></p>
+                <p class = "email" style:"color: #ECF87F>Email: <a href="mailto:${intern.email}">${intern.email}</a></p>
                 <p class = "school">School Name: ${intern.school}</p>
             </div>
         </div>
@@ -112,8 +112,12 @@ const generateTeamPage = function (employeeCards) {
     </head>
 
     <body>
-        <main>
-            <div class="container">
+        <main> 
+            <header>
+                <h1 class="title" style="text-align: center; color: #ECF87F; background-color:#59981A; margin: 0">Team Profile</h1>
+            </header>
+
+            <div class="container" style="background-color: #81B622">
                 <div class="row justify-content-center" id="team-cards">
                 ${employeeCards}
                 </div>
