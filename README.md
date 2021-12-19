@@ -21,8 +21,12 @@ From the command line run `node index.js`. Answer the prompts as needed about yo
 View walk through video here: [Screencastify] (add link for video here as well as images after, use <br> for spacing)
 
 ## Images
-For a video demonstrating the application please visit:
-https://drive.google.com/file/d/1eQQJIYDOd3fBbCCKA_z2kELEuTxQQ8VZ/view
+For a video demonstrating the application please click: [Watch Video](https://drive.google.com/file/d/1eQQJIYDOd3fBbCCKA_z2kELEuTxQQ8VZ/view)
+
+<img src="https://github.com/alexisn84/oop-team-profile-generator/blob/main/src/assets/html%20.jpg">
+<img src="https://github.com/alexisn84/oop-team-profile-generator/blob/main/src/assets/tests.jpg">
+<img src="https://github.com/alexisn84/oop-team-profile-generator/blob/main/src/assets/run%20node.png">
+<img src="https://github.com/alexisn84/oop-team-profile-generator/blob/main/src/assets/team%20created.jpg">
 
 ## License 
 This project is license under MIT
