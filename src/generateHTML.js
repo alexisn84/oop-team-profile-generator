@@ -45,7 +45,7 @@ const generateIntern = function (intern) {
         <div class = "card h-125" style="color: #ECF87F; background-color: #59981A">
             <div class = "card-header">
                 <h3>${intern.name}</h3>
-                <h4>Manager</h4><i class = "material-icons">school</i>
+                <h4>Intern</h4><i class = "material-icons">school</i>
             </div>
 
             <div class="card-body" >

@@ -7,6 +7,7 @@ This application uses Inquirer module form Node.js to generate team profile base
 ## Table of Contents
 * [Installation](#installation)
 * [Usage](#usage)
+* [Images](#images)
 * [License](#license)
 * [Contributing](#contributing)
 * [Tests](#tests)
@@ -19,6 +20,10 @@ The repository will need to be cloned from GitHub and download Node. The user wi
 From the command line run `node index.js`. Answer the prompts as needed about your team. 
 View walk through video here: [Screencastify] (add link for video here as well as images after, use <br> for spacing)
 
+## Images
+For a video demonstrating the application please visit:
+https://drive.google.com/file/d/1eQQJIYDOd3fBbCCKA_z2kELEuTxQQ8VZ/view
+
 ## License 
 This project is license under MIT
 
@@ -26,7 +31,7 @@ This project is license under MIT
 Not accepting contributions for this project at this time.
 
 ## Tests
-Run `npm run test` to run Jest for testing on constructors.
+Run `npm run test` to run Jest for testing on constructors using the command line.
 
 ## Questions
 *Any questions about this project, please create an issue under the repo at: 
